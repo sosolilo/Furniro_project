@@ -1,0 +1,227 @@
+@import url('../fonts/stylesheet.css');
+
+/*------- global Reset -----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+span,
+textarea,
+a,
+p {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/*---- grid system --------*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.row {
+    padding-left: -16px;
+    padding-right: -16px;
+    display: flex;
+}
+
+
+.col-auto,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.col-auto {
+    width: auto;
+}
+
+.col-1 {
+    width: 8.333333333%;
+
+}
+
+.col-2 {
+
+    width: 16.66666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.666666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333333%;
+}
+
+.col-8 {
+    width: 66.666666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333333%;
+}
+
+.col-11 {
+    width: 91.666666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*___________ASMAA HELAL HEADER___________*/
+header {
+    background: #FFF;
+}
+
+header .row {
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 8px 0;
+}
+
+header .div-logo {
+    display: flex;
+    align-items: center;
+}
+
+
+header .nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+header .nav-bar ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .div-icons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+/*ASMAA HELAL HERO SECTION*/
+.hero  {
+    background: url("../imgs/hero-section/hero_img.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.hero .container{
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.hero .group-text {
+    background-color: #FFF3E3;
+    padding: 62px 52px 62px 42px;
+    max-width: 608px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.hero .group-text h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+}
+
+.hero .group-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #B88E2F;
+    line-height: 65px;
+    margin-bottom: 17px;
+
+}
+
+.hero .group-text p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero .group-text .btn a {
+    display: inline-block;
+    background: #B88E2F;
+    color: #FFF;
+    padding: 25px 72px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
